@@ -67,6 +67,17 @@ spec:
         ports:
         - containerPort: 8989
           name: webui
+        startupProbe:
+          exec:
+            command:
+              - /bin/sh
+              - '-c'
+              - >-
+                curl "http://localhost:8989/sonarr/api/system/status?ApiKey=$(sed
+                -ne '/ApiKey/{s/.*<ApiKey>\(.*\)<\/ApiKey>.*/\1/p;q;}'
+                </config/config.xml)"
+          periodSeconds: 10
+          failureThreshold: 500          
         livenessProbe:
           exec:
             command:
