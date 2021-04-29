@@ -8,9 +8,9 @@ images:
   - name: linuxserver/jackett
     newTag: v0.17.656-ls23
   - name: linuxserver/sonarr
-    newTag: 2.0.0.5344-ls96
+    newTag: 3.0.6.1196-ls104
   - name: linuxserver/radarr
-    newTag: 3.0.2.4552-ls96
+    newTag: 3.0.2.4552-ls101
   - name: linuxserver/bazarr
     newTag: v0.9.2-ls106
   - name: linuxserver/transmission
