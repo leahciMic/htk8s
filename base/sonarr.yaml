@@ -62,7 +62,7 @@ spec:
           value: "1000"
         - name: PGID
           value: "1000"
-        image: linuxserver/sonarr
+        image: linuxserver/sonarr:3.0.6.1196-ls104
         name: sonarr
         ports:
         - containerPort: 8989
