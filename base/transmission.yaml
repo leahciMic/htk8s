@@ -69,6 +69,10 @@ spec:
           value: "1000"
         - name: PGID
           value: "1000"
+        - name: WHITELIST
+          value: ""
+        - name: HOST_WHITELIST
+          value: ""
         ports:
         - containerPort: 9091
           name: webui
