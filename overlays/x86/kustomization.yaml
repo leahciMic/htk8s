@@ -10,7 +10,7 @@ images:
   - name: linuxserver/sonarr
     newTag: 3.0.6.1265-ls111
   - name: linuxserver/radarr
-    newTag: 3.2.2.5080-ls106
+    newTag: 3.2.2.5080-ls107
   - name: linuxserver/bazarr
     newTag: v0.9.2-ls106
   - name: linuxserver/transmission
